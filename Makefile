@@ -29,4 +29,4 @@ migrateupaws:
 	migrate -path db/migration -database "postgresql://root:zwshkJAFs8lozKcydIW0@simple-bank.ctqe66s8kpyt.eu-west-1.rds.amazonaws.com:5432/simple_bank" -verbose up
 
 
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server mock migrateupaws
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc test server mock migrateupaws awsupdb
